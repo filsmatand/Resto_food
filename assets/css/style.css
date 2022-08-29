@@ -1,0 +1,75 @@
+.cc-navbar
+{
+    background: rgba(0,0,0,0.5);
+    font-family: 'Merrweather'serif;
+    box-shadow: 1px 1px 3px rgba(255,255,255,0.5);
+    z-index: 99;
+}
+.cc-navbar .nav-link
+{
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom .4s ease-in-out, border-color .3s ease;
+}
+.logo 
+{
+    width: 40%;
+}
+.cc-navbar .nav-link:hover
+{
+    padding-bottom:20px;
+    border-bottom-color: var(--bs-teal) ;
+}
+.btn-order
+{
+    color: var(--bs-teal);
+    border-color: var(--bs-teal) ;
+    transition: 0.5s;
+}
+.btn-order:hover,
+.btn-order:active
+{
+    
+    background:var(--bs-teal);
+}
+.redressed
+{
+    font-family: '.Redressed',cursive;
+}
+.merriweather
+{
+    font-family: 'Merriweather', serif;
+}
+.banner 
+{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('../img/so.PNG') center center fixed no-repeat;
+    background-size: cover;
+    height: 800px;
+    
+}
+.banner .banner-desc
+{
+    font-size: 48px;
+    font-weight: 400;
+    color: white;
+}
+.imag-cc 
+{
+    width: 100%;
+    height: 80%;
+}
+.carousel
+{
+    height: 100%;
+}
+.text-h
+{
+    text-align:center;
+    align-items: center;
+}
+.cc-menu
+{
+  
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('../img/go.jpeg') center center fixed no-repeat;
+    background-size: cover;
+    height: 1500px;
+}
